@@ -5,6 +5,7 @@
 * [About The Project](#about)
 * [About Databases](#databases)
 * [Technologies](#technologies)
+* [About Admin Panel Operations](#admin-operations)
 * [Customer Register and Sign-In](#register-sign-in)
 * [Sports Articles Homepage](#sports-homepage)
 * [A Sport Article Detail](#sports-detail)
@@ -32,11 +33,17 @@
 - ##### Database: customers --> table: customersinfo
 ##### All the records about the users of the application are kept here. Admin can see who registered the application to read new articles, using admin panel.
 
+![pic](./assets/img-readme/customers-db.png)
+
+
 - ##### Database: articles --> tables: sports, culture
 ##### All the records about new articles and blogs are kept here. Admin can add new article, update an existing one, delete, make pasive or aktive, using admin panel. And all these operations are provided from MySQL database.
 
+![pic](./assets/img-readme/articles-db.png)
 
-
+##### There is one-to-many relations between:  
+- ##### teams: sports (provided by 'baslik')
+- ##### countries: culture (provided by 'baslik')
 
 ### Technologies That Is Used <a name="technologies"></a>
 
@@ -44,11 +51,23 @@
 
 - ##### In order to make the application to gain dynamic attributes, PHP - PDO concept has been used. So that we can build the bridge between web application and our database system. The connection between the site and database has been provided by PHP - PDO and MySql technologies. So all the data is stored, kept and managed by MySql.
 
+### About Admin Panel Operations <a name="admin-operations"></a>
+##### All admin panel operations; 
+- ##### Admin Homepage
+- ##### Show Articles List
+- ##### Add New Article
+- ##### Update an Article That Exists
+- ##### Remove an Article
+- ##### Change Activity of an Article
+- ##### See All Members 
+
+##### All of this operations are provided by database functionalities which are described above. So the main purpose here is to make the web application dynamic so that the  owner of the app can easily manage all functions from admin panel. 
+
+##### The inputs at the interface corresponds to the columns from the related table. The connection between the user interface and the database is provided by PHP-PDO and MySQL technologies.
 
 
 ### Customer Register and Sign-In <a name="register-sign-in"></a>
 - ##### Users should reigster and sign-in in order to read articles. This sign-in / register operations is provided by user interface at the front-end and a database system at the back-end. 
-
 
 - #### Register:
 
