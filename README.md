@@ -14,6 +14,7 @@
 * [Admin Panel Add New Sports Articles](#admin-sports-add)
 * [Admin Panel Update Sports Articles](#admin-sports-update)
 * [Admin Panel Remove and Activ Operations For Sports Articles](#admin-asia-remove-activ)
+* [Admin Panel - Show Members](#admin-members)
 
 ### About The Project <a name="about"></a>
 
@@ -44,6 +45,9 @@
 
 
 ### Customer Register and Sign-In <a name="register-sign-in"></a>
+- ##### Users should reigster and sign-in in order to read articles. This sign-in / register operations is provided by user interface at the front-end and a database system at the back-end. 
+
+![pic](images/img-readme/register.png)
 
 
 ### Sports Articles Homepage <a name="sports-homepage"></a>
@@ -73,3 +77,7 @@
 
 
 ### Admin Panel Remove and Activ Operations For Sports Articles <a name="admin-asia-remove-activ"></a>
+
+
+
+### Admin Panel - Show Members <a name="admin-members"></a>
