@@ -1,0 +1,1 @@
+SELECT COUNT(team_name) FROM teams;

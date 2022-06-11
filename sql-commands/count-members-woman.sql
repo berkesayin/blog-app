@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM customersinfo WHERE gender='Woman';
