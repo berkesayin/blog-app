@@ -36,6 +36,8 @@
 ##### All the records about new articles and blogs are kept here. Admin can add new article, update an existing one, delete, make pasive or aktive, using admin panel. And all these operations are provided from MySQL database.
 
 
+
+
 ### Technologies That Is Used <a name="technologies"></a>
 
 - ##### The user interface of the project is designed, conceived and completed by HTML5 - CSS3 and Bootstrap. 
