@@ -47,7 +47,14 @@
 ### Customer Register and Sign-In <a name="register-sign-in"></a>
 - ##### Users should reigster and sign-in in order to read articles. This sign-in / register operations is provided by user interface at the front-end and a database system at the back-end. 
 
-![pic](images/img-readme/register.png)
+
+- #### Register:
+
+![pic](./assets/img-readme/register.png)
+
+- #### Sign-In:
+
+![pic](./assets/img-readme/sign-in.png)
 
 
 ### Sports Articles Homepage <a name="sports-homepage"></a>
