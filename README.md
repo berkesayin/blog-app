@@ -4,14 +4,16 @@
 ### Contents
 * [About The Project](#about)
 * [About Databases](#databases)
+* [Technologies](#technologies)
 * [Customer Register and Sign-In](#register-sign-in)
-* [Asia Books Product Page Customer Layout](#asia-books-customer-panel)
+* [Sports Articles Homepage](#sports-homepage)
+* [A Sport Article Detail](#sports-detail)
 * [Admin Sign-In Panel](#admin-sign-in)
-* [Admin Panel Homepage Layout](#admin-homepage)
-* [Admin Panel Asia Books General View Layout](#admin-asia-general)
-* [Admin Panel Asia Books Add New Product Layout](#admin-asia-add)
-* [Admin Panel Asia Books Update Product Layout](#admin-asia-update)
-* [Admin Panel Asia Books Remove and Activ Operations](#admin-asia-remove-activ)
+* [Admin Panel Homepage](#admin-homepage)
+* [Admin Panel Sports Articles General View](#admin-sports-general)
+* [Admin Panel Add New Sports Articles](#admin-sports-add)
+* [Admin Panel Update Sports Articles](#admin-sports-update)
+* [Admin Panel Remove and Activ Operations For Sports Articles](#admin-asia-remove-activ)
 
 ### About The Project <a name="about"></a>
 
@@ -32,3 +34,42 @@
 - ##### Database: articles --> tables: sports, culture
 ##### All the records about new articles and blogs are kept here. Admin can add new article, update an existing one, delete, make pasive or aktive, using admin panel. And all these operations are provided from MySQL database.
 
+
+### Technologies That Is Used <a name="technologies"></a>
+
+- ##### The user interface of the project is designed, conceived and completed by HTML5 - CSS3 and Bootstrap. 
+
+- ##### In order to make the application to gain dynamic attributes, PHP - PDO concept has been used. So that we can build the bridge between web application and our database system. The connection between the site and database has been provided by PHP - PDO and MySql technologies. So all the data is stored, kept and managed by MySql.
+
+
+
+### Customer Register and Sign-In <a name="register-sign-in"></a>
+
+
+### Sports Articles Homepage <a name="sports-homepage"></a>
+
+
+### A Sport Article Detail <a name="sports-detail"></a>
+
+
+
+### Admin Sign-In Panel <a name="admin-sign-in"></a>
+
+
+
+### Admin Panel Homepage <a name="admin-homepage"></a>
+
+
+
+### Admin Panel Sports Articles General View <a name="admin-sports-general"></a>
+
+
+
+### Admin Panel Add New Sports Articles <a name="admin-sports-add"></a>
+
+
+### Admin Panel Update Sports Articles <a name="admin-sports-update"></a>
+
+
+
+### Admin Panel Remove and Activ Operations For Sports Articles <a name="admin-asia-remove-activ"></a>
